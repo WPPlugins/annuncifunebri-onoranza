@@ -1,0 +1,159 @@
+/*sovrasrcrivo default bootstrap*/
+body.wp-admin{background:transparent;color:#444;font-family:"Open Sans",sans-serif;}
+.tab-content{background:#fff;}
+.nav-tabs > li.active > a{border-bottom:1px solid transparent !important;background:#fff !important;}
+.nav-tabs > li > a{border:1px solid #ddd !important;}
+
+/*annunci\ricerca*/
+#annfu_annunci_filter{min-height:150px;margin:0 -15px;}
+#annfu_annunci_filter.annfu_annunci_filter_back{min-height:360px;}
+#annfu_annunci_filter.annfu_annunci_filter_back .row div{margin-bottom:.5em;}
+#annfu_annunci_filter .front,#annfu_annunci_filter .back{background:#a59ddb;}
+#annfu_annunci_filter form{padding:1em;}
+#annfu_annunci_filter select{width:100%;padding:0 10px;border:1px solid #d2d2d2;color:#d2d2d2;}
+#annfu_annunci_filter select option{color:#666;}
+#annfu_annunci_filter .select2-container{width:100% !important;}
+#annfu_annunci_filter .select2-container .select2-selection--single{height:35px;}
+#annfu_annunci_filter .select2-container--default .select2-selection--single .select2-selection__rendered{padding:0 3px;color:#999;font-size:99%;line-height:35px;}
+#annfu_annunci_filter .select2-selection__arrow{height:33px;}
+#annfu_annunci_filter .select2-container--open{z-index:99999;}
+#annfu_annunci_filter .annfu_filter_button{display:inline-block;padding:6px 0;}
+
+/*annunci*/
+#annfu_annunci{margin-top:10px;border:1px solid #f2f2f2;background:#fafafa;}
+.annfu_annunci_no_results{padding:15px 20px;}
+.annfu_annunci_container{padding:15px 20px;text-align:center;}
+.annfu_annunci_wrapper{position:relative;border:1px solid #f6f6f6;background:#fff;}
+.annfu_annunci_wrapper:hover{border:1px solid #111;background:#4f5064;color:#fff;
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+.annfu_annunci_wrapper img{width:100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+.annfu_annunci_wrapper:hover img, .annfu_annunci_wrapper img:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  filter: none;
+}
+.annfu_ribbon_anniversario_wrapper{position:absolute;top:-5px;right:-4px;width:85px;height:88px;overflow:hidden;}
+.annfu_ribbon_anniversario{position:relative;top:15px;left:-5px;width:120px;padding:7px 0;color: #fff;font-size:.9em;text-align:center;text-shadow:rgba(0, 0, 0, 0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  background-color:#4f5064;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a59ddb), to(#4f5064));
+  background-image: -webkit-linear-gradient(top, #a59ddb, #4f5064);
+  background-image: -moz-linear-gradient(top, #a59ddb, #4f5064);
+  background-image: -ms-linear-gradient(top, #4f5064, #a59ddb);
+  background-image: -o-linear-gradient(top, #4f5064, #a59ddb);
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  z-index:999;
+}
+.annfu_ribbon_anniversario:before, .annfu_ribbon_anniversario:after{position:absolute;bottom:-3px;border-top:3px solid #afafaf;border-left:3px solid transparent;border-right:3px solid transparent;content:"";}
+.annfu_ribbon_anniversario:before{left: 0;}
+.annfu_ribbon_anniversario:after{right: 0;}
+
+.annfu_ribbon_ringraziamento_wrapper{position:absolute;top:-4px;left:-4px;width:85px;height:88px;overflow:hidden;}
+.annfu_ribbon_ringraziamento{position:relative;top:15px;left:-30px;width:120px;padding:7px 0;color: #000;font-size:.75em;text-align:center;text-shadow:rgba(255, 255, 255, 0.5) 0px 1px 0px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  background-color:#4f5064;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a59ddb), to(#4f5064));
+  background-image: -webkit-linear-gradient(top, #a59ddb, #4f5064);
+  background-image: -moz-linear-gradient(top, #ffd700, #daa520);
+  background-image: -ms-linear-gradient(top, #4f5064, #a59ddb);
+  background-image: -o-linear-gradient(top, #4f5064, #a59ddb);
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  z-index:999;
+}
+.annfu_ribbon_ringraziamento:before, .annfu_ribbon_ringraziamento:after{position:absolute;bottom:-3px;border-top:3px solid #afafaf;border-left:3px solid transparent;border-right:3px solid transparent;content:"";}
+.annfu_ribbon_ringraziamento:before{right: 0;}
+.annfu_ribbon_ringraziamento:after{left: 0;}
+h2.annfu_annunci_nominativo{min-height:2.5em;margin:.5em 0;font-size:1.1em;text-transform:uppercase;}
+.annfu_annunci_anni{display:block;margin:.5em 0 .8em;font-weight:bold;}
+.annfu_annunci_paese{min-height:4em;margin:0 .8em;padding:.5em 0;border-top:1px solid #d2d2d2;font-size:80%;text-transform:uppercase;}
+.annfu_annunci_onoranza{padding:2px 0;background:#333333;color:#fff;}
+.annfu_annunci_onoranza a{color:#fff;}
+.annfu_add_cordoglio{display:none;}
+.annfu_annunci_wrapper:hover .annfu_add_cordoglio{display:block;position:absolute;bottom:0;width:100%;padding:.5em;background:#fff;}
+
+.annfu_pagination_container{clear:both;margin:1em 0;}
+.annfu_pagination{float:right;margin:0;}
+.annfu_nb_results{float:left;}
+
+/*annuncio*/
+#annfu_regione_provincia_comune{margin-bottom:1em;}
+.annfu_annuncio_wrapper{border:5px solid #d2d2d2;}
+.annfu_annuncio{padding:1em;}
+.annfu_annuncio img{margin:1em auto;}
+.annfu_annuncio h2{margin:0.5em;}
+.annfu_annuncio_testo{margin:2em 0;}
+.annfu_annuncio_paese, .annfu_annuncio_onoranza_funebre{}
+
+/*annuncio\social*/
+.annfu_social{margin-top:20px;}
+.annfu_social i{height:32px;width:32px;margin:0 5px;border-color:#888;background:#b2b2b2;color:#fff;font-size:16px;line-height:32px;text-align:center;border-radius:50%;}
+.annfu_social .fa-whatsapp:hover{border-color:#43d854;background:#43d854;}
+.annfu_social .fa-facebook:hover{border-color:#4c71bc;background:#4c71bc;}
+.annfu_social .fa-twitter:hover{border-color:#30b6dd;background:#30b6dd;}
+.annfu_social .fa-google-plus:hover{border-color:#d34836;background:#d34836;}
+.annfu_social .fa-envelope-o:hover{border-color:#3388ff;background:#3388ff;}
+.annfu_social .fa-print:hover{border-color:#d24663;background:#d24663;}
+.annfu_social .fa-newspaper-o:hover{border-color:#35465c;background:#35465c;}
+
+/*annuncio\cordogli*/
+#annfu_form_cordoglio{margin:1em 0;}
+#annfu_form_cordoglio input{margin-bottom:2px;}
+#annfu_form_cordoglio #annfu_testo{width:100%;height:100px;padding:.5em 1em;border:1px solid #d2d2d2;}
+#annfu_form_cordoglio #annfu_invio{width:100%;}
+.annfu_sms_utente{margin-bottom:2em;}
+.annfu_partecipazioni_wrapper{margin:1em 0;padding:1em;/*background:#f9f9f9;*/}
+.annfu_cordogli{margin:1em 0;/*background:#f9f9f9;*/}
+.annfu_cordoglio_intestazione{padding-bottom:.3em;border-bottom:1px solid #d2d2d2;}
+.annfu_cordoglio_intestazione strong{color:#a59ddb;}
+.annfu_cordoglio_testo{margin:.7em 0 2em;}
+
+/*annuncio\testi default*/
+.annfu_testo_default{margin:.5em 0;padding:.2em 0;border-bottom:1px solid #f2f2f2;}
+
+.annfu_poweredby a{padding:.5em;color:#ccc;}
+
+.annfu_error{color:#c00;}
+.annfu_success{color:#0c0;}
+.annfu_pointer{cursor:pointer;}
+
+/*admin*/
+.annfu_form_wrap{margin-right:1em;}
+.annfu_form_wrap .tab-pane{padding:1em .5em;}
+.annfu_form_wrap .tab-content{border:1px solid #ddd;border-top:0;}
+.annfu_form_wrap .annfu_form_row{margin:0 0 5px 0;}
+.annfu_form_wrap .annfu_form_row span.annfu_helper{margin-left:10px;}
+.annfu_form_wrap #annfu_textarea{display:none;}
+.annfu_form_wrap .ace_editor{height:200px;}
+.annfu_code{display:inline;padding:5px 10px;border:1px solid #aaa;background:#ddd;color:#333;}
+#annfu_struttura{border:1px solid #ccc;background:#dedede;}
+#annfu_struttura span{padding:5px;background:#fd0;}
+#annfu_options_reset{line-height:200%;}
+
+@media screen and (min-width: 768px) {
+  #annfu_annunci_filter.annfu_annunci_filter_back{min-height:235px;}
+  #annfu_annunci_filter.annfu_annunci_filter_back .row{margin-bottom:0;}
+  #annfu_annunci_filter.annfu_annunci_filter_back .row div{margin-bottom:.5em;}
+}
+@media screen and (min-width: 992px) {
+  #annfu_annunci_filter.annfu_annunci_filter_back{min-height:150px;}
+}
+@media screen and (min-width: 1200px) {}
